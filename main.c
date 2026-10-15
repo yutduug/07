@@ -1,7 +1,8 @@
 
 #include <stdio.h>
 
-int all_les;
+static int all_les;
+
 void sub(void);
 
 int main(void)
