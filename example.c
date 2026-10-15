@@ -3,16 +3,14 @@
 
 int main(void)
 {
-    int age = 1;
-    int y;
+    int i;
 
-    while (age != 0)
+    for (i = 0; i < 5; i++)
     {
-        y = 3;
-        age = 0;
+        int temp = 1;
+        printf("temp = %d\n", temp);
+        temp++;
     }
-
-    y = 4;
 
     return 0;
 }
